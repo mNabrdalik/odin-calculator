@@ -33,6 +33,7 @@ body {
 
 #screen {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     width: 420px;
@@ -76,6 +77,10 @@ body {
 
 .btns div:hover {
     background-color: var(--red);
+}
+
+#dot {
+    align-items: flex-end;
 }
 
 #clear,
